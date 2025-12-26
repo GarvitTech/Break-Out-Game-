@@ -1,8 +1,14 @@
-# Hand Breakout Deluxe 🎮
+# 🎮 Hand Breakout Deluxe
 
-A modern twist on the classic Breakout game featuring **hand gesture controls** using computer vision and MediaPipe. Control the paddle with your hand movements detected through your webcam!
+<div align="center">
 
-![Game Preview](https://img.shields.io/badge/Python-Pygame-blue) ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-MediaPipe-green) ![AI Powered](https://img.shields.io/badge/AI%20Powered-Hand%20Tracking-orange)
+![Hand Breakout Deluxe](https://img.shields.io/badge/Python-Pygame-blue) ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-MediaPipe-green) ![AI Powered](https://img.shields.io/badge/AI%20Powered-Hand%20Tracking-orange) ![Made by](https://img.shields.io/badge/Made%20by-Garvit%20Pant-purple)
+
+**A revolutionary twist on the classic Breakout game featuring hand gesture controls using advanced computer vision and MediaPipe AI!**
+
+*Control the paddle with your hand movements - No controllers, just your natural gestures!*
+
+</div>
 
 ## 🎯 Features
 
@@ -41,6 +47,10 @@ A modern twist on the classic Breakout game featuring **hand gesture controls** 
    ```
 
 2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   Or manually install:
    ```bash
    pip install pygame opencv-python mediapipe
    ```
@@ -112,12 +122,13 @@ On macOS, you may need to grant camera permissions:
 ```
 Break-Out-Game-/
 ├── main.py                    # Main game file with hand tracking
+├── requirements.txt           # Python dependencies
 ├── hand_landmarker.task       # MediaPipe hand tracking model
 ├── brick.wav                  # Sound effect for brick breaking
 ├── paddle.wav                 # Sound effect for paddle hits
 ├── lose.wav                   # Sound effect for losing ball
 ├── powerup.wav                # Sound effect for power-ups
-└── README.md                  # This file
+└── README.md                  # Project documentation
 ```
 
 ## 🔧 Dependencies
@@ -186,6 +197,7 @@ This project is open source and available under the MIT License.
 - **MediaPipe** for hand tracking technology
 - **Pygame** community for the excellent game framework
 - **OpenCV** for computer vision capabilities
+- **Garvit Pant** for innovative AI-powered game design
 
 ## 🎉 Have Fun!
 
@@ -193,5 +205,11 @@ Enjoy playing Hand Breakout Deluxe! Experience the future of gaming where your h
 
 ---
 
-**Made with ❤️ by GarvitTech**
+<div align="center">
+
+**🚀 Crafted with ❤️ by [Garvit Pant](https://github.com/GarvitTech)**
+
+*Repository: [Break-Out-Game-](https://github.com/GarvitTech/Break-Out-Game-)*
+
+</div>
 
